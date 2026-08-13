@@ -276,7 +276,7 @@ services:
       service-offeringdb:
         condition: service_healthy
     environment:
-      SPRING_APPLICATION_NAME: "service-offering-service"
+      SPRING_APPLICATION_NAME: "service-offering"
       SPRING_DATASOURCE_URL: "jdbc:mysql://service-offeringdb:3306/service-offeringdb"
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: root
